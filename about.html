@@ -93,6 +93,15 @@
     [data-title] {
     position: relative;
 }
+::-moz-selection { /* Code for Firefox */
+        color:  #ddd;
+        background: black;
+        }
+
+    ::selection {
+      color:  #ddd;
+        background: black;
+        }
 [data-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease 0.5s;
@@ -112,7 +121,7 @@
 <h1>Who am I?</h1></div>
 
 <p>
-I, Rosie DeFazio, am a Data Analyst at Q<sup>2</sup> Solutions. I am passonaite about learning new topics and understanding where they come from.
+I, Rosie DeFazio, am a Data Analyst at Q<sup>2</sup> Solutions. I am passionate about learning new topics and understanding where they come from.
 <br> This website is an example of my passion for learning. 
 I have created this website from scratch and you can see the code at
 <a href="https://github.com/Rosiedefazio/rosiedefazio.github.io" style="color: #01040290 ">this link</a>.
