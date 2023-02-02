@@ -1,0 +1,194 @@
+    html {
+        scroll-behavior: smooth;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #D1CCDC;
+        background-size: cover;
+        margin: 0 auto;
+        font-family: Georgia, serif;
+        overflow: hidden;
+    }
+
+    i {
+        color: rgb(218, 203, 185);
+    }
+
+    i:hover {
+        color: rgb(59, 57, 57);
+    }
+
+    /* select the nav container and apply properties */
+    .nav-container {
+        background-color:#70708a;
+        background-color: solid;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+        border: 1px #333;
+        overflow: hidden;
+        /* apply flex to get right and left navigations in a row */
+        display: flex;
+        /* push both the blocks to the edges using justify-content */
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    /* target the ul and remove the bullets */
+    .right-side,
+    .left-side {
+        list-style-type: none;
+    }
+
+    /* change li display property from block to inline block */
+    .right-side li,
+    .left-side li {
+        display: inline-block;
+    }
+
+    /* style the anchor elements */
+    .right-side li a,
+    .left-side li a {
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        color: rgb(218, 203, 185);
+        padding: 14px 16px;
+        font-weight: bold;
+    }
+
+    /* apply hover */
+    .right-side li a:hover,
+    .left-side li a:hover {
+        color: rgb(59, 57, 57);
+    }
+
+    /*.
+topnav {overflow: hidden;
+    background-color: rgba(211, 160, 196, 0.308);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    justify-content: space-between;
+    display: flex;}
+
+Navbar links 
+.topnav a {float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;}
+      
+Links - change color on hover 
+.topnav a:hover {border-radius: 5px;
+    background-color: #ddd;
+    color: black;}
+     
+.topnav a.active{background-color: #33261D;
+    color: #ddd;}
+
+.topnav-right{float: right; 
+    display: inline-block;}*/
+
+    h2 {
+        color: #33261D;
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+        text-transform: capitalize;
+        font-size: 40px;
+        font-weight: lighter;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 80px;
+        color: rgba(51, 38, 29)
+    }
+
+    p {
+        font-size: large;
+        text-align: center;
+        vertical-align: center;
+        text-decoration: none;
+        color: rgba(51, 38, 29);
+    }
+
+    .p2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .subtitle {
+        color: #33261D;
+        text-transform: capitalize;
+        font-size: 25px;
+        justify-content: center;
+        font-weight: lighter
+    }
+
+    .subtitle2 {
+        color: #33261D;
+        text-transform: capitalize;
+        justify-content: center;
+        font-size: larger;
+        font-weight: lighter
+    }
+
+    img {
+        border-radius: 100%;
+        display: flex;
+        padding-bottom: 2%;
+        
+    }
+
+    .centerimage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;4
+        width: 50%;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .column.is-vcentered {
+        align-items: center;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    @media screen and (min-width: 600px) {
+        .column {
+            width: 100%;
+        }
+    }
+
+    .div {
+        display: flex;
+    }
