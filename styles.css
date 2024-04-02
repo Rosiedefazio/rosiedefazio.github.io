@@ -16,10 +16,10 @@ body {
 }
 
 i {
-    color: rgb(218, 203, 185);
+    color: rgb(0, 0, 0);
 }
 a {
-    color: rgb(218, 203, 185);
+    color: rgb(0, 0, 0);
 }
 i:hover {
     color: rgb(59, 57, 57);
@@ -126,7 +126,7 @@ img {
     align-items: center;
 }
 
-
+.center{ text-align: center;}
 .row:after {
     content: "";
     display: table;
